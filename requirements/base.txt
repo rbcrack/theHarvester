@@ -1,23 +1,26 @@
 aiodns==3.0.0
 aiofiles==0.7.0
-aiohttp==3.7.4.post0
+aiohttp==3.9.4
 aiomultiprocess==0.9.0
 aiosqlite==0.17.0
 beautifulsoup4==4.9.3
 censys==2.0.3
-certifi==2021.05.30
-dnspython==2.1.0
-fastapi==0.66.0
+certifi==2023.7.22
+dnspython==2.6.1
+fastapi==0.109.1
 netaddr==0.8.0
-orjson==3.6.0
+orjson==3.9.15
 pyppeteer==0.2.5
 PyYAML==5.4.1
-requests==2.25.1
+requests==2.32.2
 retrying==1.3.3
 setuptools==57.1.0
 shodan==1.25.0
 slowapi==0.1.4
-starlette==0.14.2
+starlette==0.27.0
 lxml==4.6.3
 uvicorn==0.14.0
 uvloop==0.15.3; platform_system != "Windows"
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+redis>=4.3.6 # not directly required, pinned by Snyk to avoid a vulnerability
+websockets>=10.0 # not directly required, pinned by Snyk to avoid a vulnerability
